@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 07 17:42:10 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>94 seconds (94322 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ltts.TestNgFile.mainTest()'><b>mainTest</b><br>Test class: com.ltts.TestNgFile<br>Parameters: Login and logout$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$NA;Login$~|$T_02$~|$Verfiy URL of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyURL$~|$https://opensource-demo.orangehrmlive.com/;Login$~|$T_03$~|$Verify the title of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyTitle$~|$OrangeHRM;Login$~|$T_04$~|$Verify the Login panel presence in the page$~|$Yes$~|$xpath$~|$//*[@id="logInPanelHeading"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_05$~|$Verify Username Text box presence$~|$Yes$~|$xpath$~|$//*[@id="divUsername"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_06$~|$Enter username as "Admin"$~|$Yes$~|$name$~|$txtUsername$~|$Admin$~|$EnterText$~|$NA;Login$~|$T_07$~|$Verify Password Text box presence$~|$Yes$~|$xpath$~|$//*[@id="divPassword"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_08$~|$Enter Password as "admin123"$~|$Yes$~|$id$~|$txtPassword$~|$admin123$~|$EnterText$~|$NA;Login$~|$T_09$~|$Verify the Login button presence in the page$~|$Yes$~|$xpath$~|$//*[@id="btnLogin"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_10$~|$Click on login button$~|$Yes$~|$xpath$~|$//*[@id="btnLogin"]$~|$NA$~|$Click$~|$NA;Login$~|$T_11$~|$Verify the Presesnce of LOGO after log-in$~|$Yes$~|$xpath$~|$//*[@id="branding"]/a[1]/img$~|$NA$~|$verifyElementPresence$~|$NA;Login and logout$~|$T1_02$~|$Wait for welcome user name to be displayed$~|$Yes$~|$xpath$~|$//*[@id="welcome"]$~|$NA$~|$WaitForElement$~|$NA;Login and logout$~|$T1_03$~|$Check whether welcome button is displayed or not$~|$Yes$~|$xpath$~|$//*[@id="welcome"]$~|$NA$~|$verifyElementPresence$~|$NA;Login and logout$~|$T1_04$~|$Clickon welcome button$~|$Yes$~|$xpath$~|$//*[@id="welcome"]$~|$NA$~|$Click$~|$NA;Login and logout$~|$T1_05$~|$Click on logout button$~|$Yes$~|$xpath$~|$//*[@id="welcome-menu"]/ul/li[3]/a$~|$NA$~|$Click$~|$NA;Login and logout$~|$T1_06$~|$Wait for login panel to visible$~|$Yes$~|$xpath$~|$//*[@id="logInPanelHeading"]$~|$NA$~|$WaitForElement$~|$NA;Login and logout$~|$T1_07$~|$Verify the Login page title$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyTitle$~|$OrangeHRM;Login and logout$~|$T1_08$~|$Verify the Login panel presence in the page$~|$Yes$~|$xpath$~|$//*[@id="logInPanelHeading"]$~|$NA$~|$verifyElementPresence$~|$NA;Login and logout$~|$T1_09$~|$Close the browser $~|$Yes$~|$NA$~|$NA$~|$NA$~|$closeBrowser$~|$expectedValue;</td>
+<td></td>
+<td>46</td>
+<td>com.ltts.TestNgFile@1f0f1111</td></tr>
+<tr>
+<td title='com.ltts.TestNgFile.mainTest()'><b>mainTest</b><br>Test class: com.ltts.TestNgFile<br>Parameters: Invalid Login$~|$T3_01$~|$Launch the URL orange hrm demo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$NA;Invalid Login$~|$T3_02$~|$Verify the title of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyTitle$~|$OrangeHRM;Invalid Login$~|$T3_03$~|$Verify the Login panel presence in the page$~|$Yes$~|$xpath$~|$//*[@id="logInPanelHeading"]$~|$NA$~|$verifyElementPresence$~|$NA;Invalid Login$~|$T3_04$~|$Verify username Text box is present or not$~|$Yes$~|$xpath$~|$//*[@id="divUsername"]$~|$NA$~|$verifyElementPresence$~|$NA;Invalid Login$~|$T3_05$~|$Enter username as Administation$~|$Yes$~|$xpath$~|$//*[@id="txtUsername"]$~|$administartion$~|$EnterText$~|$NA;Invalid Login$~|$T3_07$~|$Verify Password Text box presence$~|$Yes$~|$xpath$~|$//*[@id="divPassword"]$~|$NA$~|$verifyElementPresence$~|$NA;Invalid Login$~|$T3_08$~|$Enter Password as admin123$~|$Yes$~|$xpath$~|$//*[@id="txtPassword"]$~|$admin123457$~|$EnterText$~|$NA;Invalid Login$~|$T3_10$~|$verify login button is present or not$~|$Yes$~|$xpath$~|$//*[@id="btnLogin"]$~|$NA$~|$verifyElementPresence$~|$NA;Invalid Login$~|$T3_11$~|$Click on login button$~|$Yes$~|$xpath$~|$//*[@id="btnLogin"]$~|$NA$~|$Click$~|$NA;Invalid Login$~|$T3_12$~|$Check whether "Invalid credendials" text is displayed.$~|$Yes$~|$id$~|$spanMessage$~|$NA$~|$verifyText$~|$Invalid;Invalid Login$~|$T3_13$~|$close the browser$~|$Yes$~|$NA$~|$NA$~|$NA$~|$closeBrowser$~|$NA;</td>
+<td></td>
+<td>35</td>
+<td>com.ltts.TestNgFile@1f0f1111</td></tr>
+<tr>
+<td title='com.ltts.TestNgFile.mainTest()'><b>mainTest</b><br>Test class: com.ltts.TestNgFile<br>Parameters: Assign leave$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$NA;Login$~|$T_02$~|$Verfiy URL of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyURL$~|$https://opensource-demo.orangehrmlive.com/;Login$~|$T_03$~|$Verify the title of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyTitle$~|$OrangeHRM;Login$~|$T_04$~|$Verify the Login panel presence in the page$~|$Yes$~|$xpath$~|$//*[@id="logInPanelHeading"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_05$~|$Verify Username Text box presence$~|$Yes$~|$xpath$~|$//*[@id="divUsername"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_06$~|$Enter username as "Admin"$~|$Yes$~|$name$~|$txtUsername$~|$Admin$~|$EnterText$~|$NA;Login$~|$T_07$~|$Verify Password Text box presence$~|$Yes$~|$xpath$~|$//*[@id="divPassword"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_08$~|$Enter Password as "admin123"$~|$Yes$~|$id$~|$txtPassword$~|$admin123$~|$EnterText$~|$NA;Login$~|$T_09$~|$Verify the Login button presence in the page$~|$Yes$~|$xpath$~|$//*[@id="btnLogin"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_10$~|$Click on login button$~|$Yes$~|$xpath$~|$//*[@id="btnLogin"]$~|$NA$~|$Click$~|$NA;Login$~|$T_11$~|$Verify the Presesnce of LOGO after log-in$~|$Yes$~|$xpath$~|$//*[@id="branding"]/a[1]/img$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_02$~|$Wait for welcome user name to be displaye$~|$Yes$~|$xpath$~|$//*[@id="welcome"]$~|$NA$~|$WaitForElement$~|$NA;Assign leave$~|$T2_03$~|$Check the presence of Leave Button in WebPage$~|$Yes$~|$xpath$~|$//*[@id="menu_leave_viewLeaveModule"]/b$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_04$~|$click on leave button$~|$Yes$~|$xpath$~|$//*[@id="menu_leave_viewLeaveModule"]/b$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_05$~|$Wait for leave list heading to be displayed$~|$No$~|$xpath$~|$//*[@id="leave-list-search"]/a$~|$NA$~|$WaitForElement$~|$NA;Assign leave$~|$T2_06$~|$Check the presence of AssignLeave Button in WebPage$~|$Yes$~|$xpath$~|$//*[@id="menu_leave_assignLeave"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_07$~|$Click on Assign leave button$~|$Yes$~|$xpath$~|$//*[@id="menu_leave_assignLeave"]$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_08$~|$Verify presence of employee name text box$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtEmployee_empName"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_09$~|$Enter employee name$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtEmployee_empName"]$~|$Orange Test$~|$EnterText$~|$NA;Assign leave$~|$T2_10$~|$Check Leave-Type dropdown menu is present or not$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtLeaveType"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_11$~|$Select Can-personal from dropdown menu$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtLeaveType"]$~|$CAN - Personal$~|$dropDown$~|$NA;Assign leave$~|$T2_12$~|$Verify date picker is present or not$~|$Yes$~|$xpath$~|$//*[@id="frmLeaveApply"]/fieldset/ol/li[4]/img$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_13$~|$Enter the from date for leave$~|$Yes$~|$xpath$~|$//*[@id="frmLeaveApply"]/fieldset/ol/li[4]/img$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_14$~|$Wait for date picker to be displayed$~|$No$~|$xpath$~|$//*[@id="ui-datepicker-div"]/div/a[1]$~|$NA$~|$WaitForElement$~|$NA;Assign leave$~|$T2_15$~|$Enter the from date for leave$~|$Yes$~|$xpath$~|$//*[@id="ui-datepicker-div"]/table/tbody/tr[4]/td[2]/a$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_16$~|$Enter the to date for leave$~|$Yes$~|$xpath$~|$//*[@id="frmLeaveApply"]/fieldset/ol/li[5]/img$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_17$~|$Verify to date button is present or not$~|$Yes$~|$xpath$~|$//*[@id="frmLeaveApply"]/fieldset/ol/li[5]/img$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_18$~|$Enter the to date for leave$~|$Yes$~|$xpath$~|$//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[4]/a$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_19$~|$Verify Parital days Dropdown is present or not$~|$Yes$~|$xpath$~|$//*[@id="assignleave_partialDays"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_20$~|$Enter the partial days for leave$~|$Yes$~|$xpath$~|$//*[@id="assignleave_partialDays"]$~|$All Days$~|$dropDown$~|$NA;Assign leave$~|$T2_21$~|$Verify Duration Dropdown is present or not$~|$Yes$~|$xpath$~|$//*[@id="assignleave_firstDuration_ampm"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_22$~|$select Afternoon from dropdown menu$~|$Yes$~|$xpath$~|$//*[@id="assignleave_firstDuration_ampm"]$~|$Afternoon$~|$dropDown$~|$NA;Assign leave$~|$T2_23$~|$Verify comment box is present or not$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtComment"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_24$~|$Enter comments for leave$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtComment"]$~|$Hiii$~|$EnterText$~|$NA;Assign leave$~|$T2_25$~|$Wait till Assign button is displayed$~|$No$~|$NA$~|$NA$~|$NA$~|$WaitForElement$~|$NA;Assign leave$~|$T2_26$~|$Verify Assign button is present or not$~|$Yes$~|$xpath$~|$//*[@id="assignBtn"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_27$~|$Click on Assign button$~|$Yes$~|$xpath$~|$//*[@id="assignBtn"]$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_28$~|$Wait for ok button to display.$~|$Yes$~|$xpath$~|$//*[@id="confirmOkButton"]$~|$NA$~|$WaitForElement$~|$NA;Assign leave$~|$T2_29$~|$Verify Ok button is displayed or not$~|$Yes$~|$xpath$~|$//*[@id="confirmOkButton"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_30$~|$Click on OK button$~|$Yes$~|$xpath$~|$//*[@id="confirmOkButton"]$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_31$~|$Verify the title of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyTitle$~|$OrangeHRM;Assign leave$~|$T2_32$~|$Close the browser $~|$Yes$~|$NA$~|$NA$~|$NA$~|$closeBrowser$~|$NA;</td>
+<td></td>
+<td>62</td>
+<td>com.ltts.TestNgFile@1f0f1111</td></tr>
+</table><p>
+</body>
+</html>

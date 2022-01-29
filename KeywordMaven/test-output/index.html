@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\mahe\AppData\Local\Temp\testng-eclipse--1624492771\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ltts.TestNgFile" class="method navigator-link" hash-for-method="mainTest(Login and logout$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$N...)">mainTest(Login and logout$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$N...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.ltts.TestNgFile" class="method navigator-link" hash-for-method="mainTest(Assign leave$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$NA;Lo...)">mainTest(Assign leave$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$NA;Lo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.ltts.TestNgFile</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="mainTest(Login and logout$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$N...)">
+                  </a> <!-- mainTest(Login and logout$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$N...) -->
+                  <span class="method-name">mainTest</span>
+                  <span class="parameters">(Login and logout$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$NA;Login$~|$T_02$~|$Verfiy URL of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyURL$~|$https://opensource-demo.orangehrmlive.com/;Login$~|$T_03$~|$Verify the title of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyTitle$~|$OrangeHRM;Login$~|$T_04$~|$Verify the Login panel presence in the page$~|$Yes$~|$xpath$~|$//*[@id="logInPanelHeading"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_05$~|$Verify Username Text box presence$~|$Yes$~|$xpath$~|$//*[@id="divUsername"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_06$~|$Enter username as "Admin"$~|$Yes$~|$name$~|$txtUsername$~|$Admin$~|$EnterText$~|$NA;Login$~|$T_07$~|$Verify Password Text box presence$~|$Yes$~|$xpath$~|$//*[@id="divPassword"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_08$~|$Enter Password as "admin123"$~|$Yes$~|$id$~|$txtPassword$~|$admin123$~|$EnterText$~|$NA;Login$~|$T_09$~|$Verify the Login button presence in the page$~|$Yes$~|$xpath$~|$//*[@id="btnLogin"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_10$~|$Click on login button$~|$Yes$~|$xpath$~|$//*[@id="btnLogin"]$~|$NA$~|$Click$~|$NA;Login$~|$T_11$~|$Verify the Presesnce of LOGO after log-in$~|$Yes$~|$xpath$~|$//*[@id="branding"]/a[1]/img$~|$NA$~|$verifyElementPresence$~|$NA;Login and logout$~|$T1_02$~|$Wait for welcome user name to be displayed$~|$Yes$~|$xpath$~|$//*[@id="welcome"]$~|$NA$~|$WaitForElement$~|$NA;Login and logout$~|$T1_03$~|$Check whether welcome button is displayed or not$~|$Yes$~|$xpath$~|$//*[@id="welcome"]$~|$NA$~|$verifyElementPresence$~|$NA;Login and logout$~|$T1_04$~|$Clickon welcome button$~|$Yes$~|$xpath$~|$//*[@id="welcome"]$~|$NA$~|$Click$~|$NA;Login and logout$~|$T1_05$~|$Click on logout button$~|$Yes$~|$xpath$~|$//*[@id="welcome-menu"]/ul/li[3]/a$~|$NA$~|$Click$~|$NA;Login and logout$~|$T1_06$~|$Wait for login panel to visible$~|$Yes$~|$xpath$~|$//*[@id="logInPanelHeading"]$~|$NA$~|$WaitForElement$~|$NA;Login and logout$~|$T1_07$~|$Verify the Login page title$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyTitle$~|$OrangeHRM;Login and logout$~|$T1_08$~|$Verify the Login panel presence in the page$~|$Yes$~|$xpath$~|$//*[@id="logInPanelHeading"]$~|$NA$~|$verifyElementPresence$~|$NA;Login and logout$~|$T1_09$~|$Close the browser $~|$Yes$~|$NA$~|$NA$~|$NA$~|$closeBrowser$~|$expectedValue;)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mainTest(Assign leave$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$NA;Lo...)">
+                  </a> <!-- mainTest(Assign leave$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$NA;Lo...) -->
+                  <span class="method-name">mainTest</span>
+                  <span class="parameters">(Assign leave$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$NA;Login$~|$T_02$~|$Verfiy URL of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyURL$~|$https://opensource-demo.orangehrmlive.com/;Login$~|$T_03$~|$Verify the title of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyTitle$~|$OrangeHRM;Login$~|$T_04$~|$Verify the Login panel presence in the page$~|$Yes$~|$xpath$~|$//*[@id="logInPanelHeading"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_05$~|$Verify Username Text box presence$~|$Yes$~|$xpath$~|$//*[@id="divUsername"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_06$~|$Enter username as "Admin"$~|$Yes$~|$name$~|$txtUsername$~|$Admin$~|$EnterText$~|$NA;Login$~|$T_07$~|$Verify Password Text box presence$~|$Yes$~|$xpath$~|$//*[@id="divPassword"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_08$~|$Enter Password as "admin123"$~|$Yes$~|$id$~|$txtPassword$~|$admin123$~|$EnterText$~|$NA;Login$~|$T_09$~|$Verify the Login button presence in the page$~|$Yes$~|$xpath$~|$//*[@id="btnLogin"]$~|$NA$~|$verifyElementPresence$~|$NA;Login$~|$T_10$~|$Click on login button$~|$Yes$~|$xpath$~|$//*[@id="btnLogin"]$~|$NA$~|$Click$~|$NA;Login$~|$T_11$~|$Verify the Presesnce of LOGO after log-in$~|$Yes$~|$xpath$~|$//*[@id="branding"]/a[1]/img$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_02$~|$Wait for welcome user name to be displaye$~|$Yes$~|$xpath$~|$//*[@id="welcome"]$~|$NA$~|$WaitForElement$~|$NA;Assign leave$~|$T2_03$~|$Check the presence of Leave Button in WebPage$~|$Yes$~|$xpath$~|$//*[@id="menu_leave_viewLeaveModule"]/b$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_04$~|$click on leave button$~|$Yes$~|$xpath$~|$//*[@id="menu_leave_viewLeaveModule"]/b$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_05$~|$Wait for leave list heading to be displayed$~|$No$~|$xpath$~|$//*[@id="leave-list-search"]/a$~|$NA$~|$WaitForElement$~|$NA;Assign leave$~|$T2_06$~|$Check the presence of AssignLeave Button in WebPage$~|$Yes$~|$xpath$~|$//*[@id="menu_leave_assignLeave"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_07$~|$Click on Assign leave button$~|$Yes$~|$xpath$~|$//*[@id="menu_leave_assignLeave"]$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_08$~|$Verify presence of employee name text box$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtEmployee_empName"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_09$~|$Enter employee name$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtEmployee_empName"]$~|$Orange Test$~|$EnterText$~|$NA;Assign leave$~|$T2_10$~|$Check Leave-Type dropdown menu is present or not$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtLeaveType"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_11$~|$Select Can-personal from dropdown menu$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtLeaveType"]$~|$CAN - Personal$~|$dropDown$~|$NA;Assign leave$~|$T2_12$~|$Verify date picker is present or not$~|$Yes$~|$xpath$~|$//*[@id="frmLeaveApply"]/fieldset/ol/li[4]/img$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_13$~|$Enter the from date for leave$~|$Yes$~|$xpath$~|$//*[@id="frmLeaveApply"]/fieldset/ol/li[4]/img$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_14$~|$Wait for date picker to be displayed$~|$No$~|$xpath$~|$//*[@id="ui-datepicker-div"]/div/a[1]$~|$NA$~|$WaitForElement$~|$NA;Assign leave$~|$T2_15$~|$Enter the from date for leave$~|$Yes$~|$xpath$~|$//*[@id="ui-datepicker-div"]/table/tbody/tr[4]/td[2]/a$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_16$~|$Enter the to date for leave$~|$Yes$~|$xpath$~|$//*[@id="frmLeaveApply"]/fieldset/ol/li[5]/img$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_17$~|$Verify to date button is present or not$~|$Yes$~|$xpath$~|$//*[@id="frmLeaveApply"]/fieldset/ol/li[5]/img$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_18$~|$Enter the to date for leave$~|$Yes$~|$xpath$~|$//*[@id="ui-datepicker-div"]/table/tbody/tr[5]/td[4]/a$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_19$~|$Verify Parital days Dropdown is present or not$~|$Yes$~|$xpath$~|$//*[@id="assignleave_partialDays"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_20$~|$Enter the partial days for leave$~|$Yes$~|$xpath$~|$//*[@id="assignleave_partialDays"]$~|$All Days$~|$dropDown$~|$NA;Assign leave$~|$T2_21$~|$Verify Duration Dropdown is present or not$~|$Yes$~|$xpath$~|$//*[@id="assignleave_firstDuration_ampm"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_22$~|$select Afternoon from dropdown menu$~|$Yes$~|$xpath$~|$//*[@id="assignleave_firstDuration_ampm"]$~|$Afternoon$~|$dropDown$~|$NA;Assign leave$~|$T2_23$~|$Verify comment box is present or not$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtComment"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_24$~|$Enter comments for leave$~|$Yes$~|$xpath$~|$//*[@id="assignleave_txtComment"]$~|$Hiii$~|$EnterText$~|$NA;Assign leave$~|$T2_25$~|$Wait till Assign button is displayed$~|$No$~|$NA$~|$NA$~|$NA$~|$WaitForElement$~|$NA;Assign leave$~|$T2_26$~|$Verify Assign button is present or not$~|$Yes$~|$xpath$~|$//*[@id="assignBtn"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_27$~|$Click on Assign button$~|$Yes$~|$xpath$~|$//*[@id="assignBtn"]$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_28$~|$Wait for ok button to display.$~|$Yes$~|$xpath$~|$//*[@id="confirmOkButton"]$~|$NA$~|$WaitForElement$~|$NA;Assign leave$~|$T2_29$~|$Verify Ok button is displayed or not$~|$Yes$~|$xpath$~|$//*[@id="confirmOkButton"]$~|$NA$~|$verifyElementPresence$~|$NA;Assign leave$~|$T2_30$~|$Click on OK button$~|$Yes$~|$xpath$~|$//*[@id="confirmOkButton"]$~|$NA$~|$Click$~|$NA;Assign leave$~|$T2_31$~|$Verify the title of the page$~|$Yes$~|$NA$~|$NA$~|$NA$~|$verifyTitle$~|$OrangeHRM;Assign leave$~|$T2_32$~|$Close the browser $~|$Yes$~|$NA$~|$NA$~|$NA$~|$closeBrowser$~|$NA;)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\mahe\AppData\Local\Temp\testng-eclipse--1624492771\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.ltts.TestNgFile&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'mainTest')
+data.setCell(0, 2, 'com.ltts.TestNgFile')
+data.setCell(0, 3, 26850);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'mainTest')
+data.setCell(1, 2, 'com.ltts.TestNgFile')
+data.setCell(1, 3, 17035);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.ltts.TestNgFile</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">mainTest(Login and logout$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$N...)</span>
+                <span class="method-start">4921 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">mainTest(Assign leave$~|$T_01$~|$Launch the URL OrangeHRMdemo $~|$Yes$~|$NA$~|$NA$~|$NA$~|$LaunchURL$~|$NA;Lo...)</span>
+                <span class="method-start">5003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">21966 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">driverClose</span>
+                <span class="method-start">31856 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">32040 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
